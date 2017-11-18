@@ -1,9 +1,9 @@
 import argparse
 import datetime
-from baseline_models import *
+from SVM_RF import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_name', '-m',required = True,help="Pass the model name: rbf, SVM")
+parser.add_argument('--model_name', '-m',required = True,help="Pass the model name: rbf, SVM, nn")
 parser.add_argument('--arguments', '-a',help="Pass the arguments according to the model")
 
 args = parser.parse_args()
