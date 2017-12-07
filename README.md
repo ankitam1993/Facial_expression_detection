@@ -32,3 +32,5 @@ python RUN_nn.py -lr 0.001 -e 500 -rf f -bn false
 8. Run 3-layer NN with HOG Features and Batchnorm: 
 
 python RUN_nn.py -lr 0.001 -e 500 -rf f -bn true
+
+9. tensorboard --logdir = 'path to tensorboard'
